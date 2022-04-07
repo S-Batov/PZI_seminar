@@ -3,6 +3,7 @@ body{
     color: #333333;
     --header-font: "Helvetica";
     --text-font: "Akaya Kanadaka";
+    font-family: var(--text-font);
 }
 #wrapper{
     background-color: #fafafa;
@@ -22,6 +23,7 @@ body{
     height: 50px;
     z-index: 2;
     position: sticky;
+    top: 0px;
 }
 #end-hunger{
     margin-left: 20px;
@@ -59,7 +61,6 @@ body{
 }
 
 /* Cover */
-
 #cover{
     position: relative;
     background: 
@@ -78,7 +79,6 @@ body{
     justify-content: center;
     min-height: 40vh;
 }
-
 #cover-text h1{
     color: white;
     margin: 8px 0;
@@ -87,9 +87,72 @@ body{
     font-weight: 900;
     font-size: 54px;
 }
-
 #cover-text p{
     color:#ffcc00;
     font-family: var(--text-font);
 
+}
+
+/* Events */
+#events{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #19334d;
+}
+#events h2{
+    margin: 50px auto 40px auto;
+    text-transform: uppercase;
+    font-family: var(--header-font);
+    font-weight: 900;
+}
+#card-wrapper{
+    justify-content: space-around;
+    margin: 0px auto;
+}
+.card{
+    width: 250px;
+    margin: 0px 20px;
+    padding: 10px;
+    border: 3px;
+    border-style: solid;
+    border-color: #fafafa;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.card:hover{
+    border: #bfbfbf;
+    border-width: 3px;
+    border-style: solid;
+}
+.card img{
+    width: 200px;
+    height: 200px;
+}
+.card h3{
+    margin: 30px 20px 10px 20px;
+    font-family: var(--header-font);
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: 0px;
+    text-align: center;
+}
+.card .date-location{
+    width: 180px;
+    justify-content: space-around;
+}
+
+.card .button{
+    height: 40px;
+    width: 150px;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 8px auto;
+    padding: 8px 0px;
+    border: 2px solid transparent;
+    border-radius: 22px;
+    background-color: #19334d;
+    color: white;
 }
