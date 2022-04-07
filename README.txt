@@ -1,0 +1,2 @@
+Ovaj projekt je napravljen u svrhu seminara iz kolegija "Programiranje za internet" i za vježbu korištenja sustava upravljanja kodom Git 
+Za dizajn je korištena slika s interneta koja se nalazi u folderu slike pod imenom "_dizajn.png"
