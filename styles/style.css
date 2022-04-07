@@ -37,7 +37,6 @@ body{
 #end-hunger p{
     margin: 0px
 }
-
 #navigation a{
     color:white;
     margin: 0px 10px;
@@ -45,7 +44,6 @@ body{
 #navigation a:hover{
     color: #ff4000;
 }
-
 #donate{
     font-family: var(--header-font);
     font-size: 25px;
@@ -53,10 +51,45 @@ body{
     background-color: #ffcc00;
     height: 100%;
 }
-
 #donate p{
     margin-left: 20px;
     margin-right: 20px;
     letter-spacing: -1px;
     font-weight: 900;
+}
+
+/* Cover */
+
+#cover{
+    position: relative;
+    background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.7), 
+      rgba(0, 0, 0, 0.7)
+    ),
+    url(../slike/cover4.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+#cover-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 40vh;
+}
+
+#cover-text h1{
+    color: white;
+    margin: 8px 0;
+    width: auto;
+    font-family: var(--header-font);
+    font-weight: 900;
+    font-size: 54px;
+}
+
+#cover-text p{
+    color:#ffcc00;
+    font-family: var(--text-font);
+
 }
