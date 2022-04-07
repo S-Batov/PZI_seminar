@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    color: #333333;
+    --header-font: "Helvetica";
+    --text-font: "Akaya Kanadaka";
+}
+#wrapper{
+    background-color: #fafafa;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Header */
+#header{
+    color: white;
+    background-color: #19334d;
+    font-family: var(--text-font);
+    height: 50px;
+    z-index: 2;
+    position: sticky;
+}
+#end-hunger{
+    margin-left: 20px;
+    font-family: var(--header-font);
+    font-size: 25px;
+    font-weight: 900;
+    letter-spacing: -1px;
+}
+#end-hunger img{
+    width: 50px;
+    height: 50px;
+}
+#end-hunger p{
+    margin: 0px
+}
+
+#navigation a{
+    color:white;
+    margin: 0px 10px;
+}
+#navigation a:hover{
+    color: #ff4000;
+}
+
+#donate{
+    font-family: var(--header-font);
+    font-size: 25px;
+    color: black;
+    background-color: #ffcc00;
+    height: 100%;
+}
+
+#donate p{
+    margin-left: 20px;
+    margin-right: 20px;
+    letter-spacing: -1px;
+    font-weight: 900;
+}
