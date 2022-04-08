@@ -63,6 +63,7 @@ body{
 /* Cover */
 #cover{
     position: relative;
+    height: 600px;
     background: 
     linear-gradient(
       rgba(0, 0, 0, 0.7), 
@@ -111,7 +112,7 @@ body{
     margin: 0px auto;
 }
 .card{
-    width: 250px;
+    width: 300px;
     margin: 0px 20px;
     padding: 10px;
     border: 3px;
@@ -155,4 +156,62 @@ body{
     border-radius: 22px;
     background-color: #19334d;
     color: white;
+}
+
+/* Family */
+#family{
+    position: relative;
+    height: 200px;
+    margin: 20px;
+    background: 
+    linear-gradient(
+      rgba(255, 0, 0, 0.7), 
+      rgba(255, 0, 0, 0.7)
+    ),
+    url(../slike/family-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    justify-content: center;
+}
+
+#family p{
+    font-family: var(--header-font);
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: auto;
+    color: white;
+}
+#family button{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: var(--header-font);
+    font-size: 24px;
+    letter-spacing: -1px;
+    margin: auto;
+    color: red;
+    height: 60px;
+    width: 250px;
+    border-radius: 32px;
+    border-style: none;
+}
+
+#news{
+    margin-top: 80px;
+}
+#news h2{
+    text-align: center;
+    width: auto;
+    margin: 50px auto 40px auto;
+    font-family: var(--header-font);
+    font-weight: 900;
+    font-size: 28px;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+}
+#news-card-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
